@@ -1,0 +1,55 @@
+/* CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: DM Sans, sans-serif;
+}
+
+/* Hero Section */
+#home {
+	max-width: 100%;
+	height: 100vh;
+	background: url(./images/hero.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	align-content: center;
+}
+
+#hero figcaption {
+	padding: 1rem;
+	margin: 0;
+}
+
+#hero h1 {
+	font-size: 2.5rem;
+}
+
+#hero p {
+	font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+	#hero h1 {
+		font-size: 1.75rem;
+	}
+	#hero p {
+		font-size: 1rem;
+	}
+}
+
+.card-img-top {
+	height: auto;
+	width: auto;
+}
+
+.card {
+	width: 24rem;
+}
+
+#contact-img {
+	background: url("images/hero.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
